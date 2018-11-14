@@ -9,7 +9,7 @@
 <!-- Schema.org markup for Google+ -->
 <meta itemprop="name" content="QuicQR">
 <meta itemprop="description" content="QuicQR the quick way to pay for your coffee">
-<meta itemprop="image" content="https://quicqr.herokuapp.com/demos/_assets/img/jquery-logo.png">
+<meta itemprop="image" content="https://aw-qrcode.mybluemix.net/demos/_assets/img/jquery-logo.png">
 
 <!-- Twitter Card data -->
 <meta name="twitter:card" content="product">
@@ -17,7 +17,7 @@
 <meta name="twitter:title" content="QuicQR the quick way to pay for your coffee">
 <meta name="twitter:description" content="QuicQR the quick way to pay for your coffee">
 <meta name="twitter:creator" content="@ju3ting">
-<meta name="twitter:image" content="https://quicqr.herokuapp.com/demos/_assets/img/jquery-logo.png">
+<meta name="twitter:image" content="https://aw-qrcode.mybluemix.net/demos/_assets/img/jquery-logo.png">
 <meta name="twitter:data1" content="But this will be ready soon">
 <meta name="twitter:label1" content="This is the Beta">
 <meta name="twitter:data2" content="Justin Grierson">
@@ -26,8 +26,8 @@
 <!-- Open Graph data -->
 <meta property="og:title" content="QuicQR" />
 <meta property="og:type" content="Website" />
-<meta property="og:url" content="https://quicqr.herokuapp.com/" />
-<meta property="og:image" content="https://quicqr.herokuapp.com/demos/_assets/img/jquery-logo.png" />
+<meta property="og:url" content="https://aw-qrcode.mybluemix.net/" />
+<meta property="og:image" content="https://aw-qrcode.mybluemix.net/demos/_assets/img/jquery-logo.png" />
 <meta property="og:description" content="QuicQR the quick way to pay for your coffee" />
 <meta property="og:site_name" content="QuicQR" />
 <meta property="og:price:amount" content="15.00" />
