@@ -46,7 +46,7 @@
 <div data-role="page" class="jqm-demos jqm-home">
 
 	<div data-role="header" class="jqm-header">
-		<h2><img src="demos/_assets/img/jquery-logo.png" alt="QuicQR"></h2>
+		<h2 style=""><img style="" src="demos/_assets/img/jquery-logo.png" alt="QuicQR"></h2>
 		<p>Version <span class="jqm-version"></span></p>
 		<a href="#" class="jqm-navmenu-link ui-btn ui-btn-icon-notext ui-corner-all ui-icon-bars ui-nodisc-icon ui-alt-icon ui-btn-left">Menu</a>
 		<a href="#" class="jqm-search-link ui-btn ui-btn-icon-notext ui-corner-all ui-icon-search ui-nodisc-icon ui-alt-icon ui-btn-right">Search</a>
@@ -115,128 +115,7 @@ echo "        	</div>        	";
         </div>
 
 	</div><!-- /content -->
-	  <?php echo "<div data-role=\"panel\" class=\"jqm-navmenu-panel\" data-position=\"left\" data-display=\"overlay\" data-theme=\"a\">\n";
-echo "	    	<ul class=\"jqm-list ui-alt-icon ui-nodisc-icon\">\n";
-echo "<li data-filtertext=\"demos homepage\" data-icon=\"home\"><a href=\"index.php\">Home</a></li>\n";
-echo "<li data-filtertext=\"introduction overview getting started\"><a href=\"/sign-up.html\" data-ajax=\"false\">Login</a></li>\n";
-echo "<li data-filtertext=\"buttons button markup buttonmarkup method anchor link button element\"><a href=\"demos/button-markup/\" data-ajax=\"false\">Buttons</a></li>\n";
-echo "<li data-filtertext=\"form button widget input button submit reset\"><a href=\"/barcodereader/index.html\" data-ajax=\"false\">Barcode Reader</a></li>\n";
-echo "<li data-role=\"collapsible\" data-enhanced=\"true\" data-collapsed-icon=\"carat-d\" data-expanded-icon=\"carat-u\" data-iconpos=\"right\" data-inset=\"false\" class=\"ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed\">\n";
-echo "	<h3 class=\"ui-collapsible-heading ui-collapsible-heading-collapsed\">\n";
-echo "		<a href=\"#\" class=\"ui-collapsible-heading-toggle ui-btn ui-btn-icon-right ui-btn-inherit ui-icon-carat-d\">\n";
-echo "		    Checkboxradio widget<span class=\"ui-collapsible-heading-status\"> click to expand contents</span>\n";
-echo "		</a>\n";
-echo "	</h3>\n";
-echo "	<div class=\"ui-collapsible-content ui-body-inherit ui-collapsible-content-collapsed\" aria-hidden=\"true\">\n";
-echo "		<ul>\n";
-echo "			<li data-filtertext=\"form checkboxradio widget checkbox input checkboxes controlgroups\"><a href=\"demos/checkboxradio-checkbox/\" data-ajax=\"false\">Checkboxes</a></li>\n";
-echo "			<li data-filtertext=\"form checkboxradio widget radio input radio buttons controlgroups\"><a href=\"demos/checkboxradio-radio/\" data-ajax=\"false\">Radio buttons</a></li>\n";
-echo "		</ul>\n";
-echo "	</div>\n";
-echo "</li>\n";
-echo "<li data-role=\"collapsible\" data-enhanced=\"true\" data-collapsed-icon=\"carat-d\" data-expanded-icon=\"carat-u\" data-iconpos=\"right\" data-inset=\"false\" class=\"ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed\">\n";
-echo "	<h3 class=\"ui-collapsible-heading ui-collapsible-heading-collapsed\">\n";
-echo "		<a href=\"#\" class=\"ui-collapsible-heading-toggle ui-btn ui-btn-icon-right ui-btn-inherit ui-icon-carat-d\">\n";
-echo "			Collapsible (set) widget<span class=\"ui-collapsible-heading-status\"> click to expand contents</span>\n";
-echo "		</a>\n";
-echo "	</h3>\n";
-echo "	<div class=\"ui-collapsible-content ui-body-inherit ui-collapsible-content-collapsed\" aria-hidden=\"true\">\n";
-echo "		<ul>\n";
-echo "			<li data-filtertext=\"collapsibles content formatting\"><a href=\"demos/collapsible/\" data-ajax=\"false\">Collapsible</a></li>\n";
-echo "			<li data-filtertext=\"dynamic collapsible set accordion append expand\"><a href=\"demos/collapsible-dynamic/\" data-ajax=\"false\">Dynamic collapsibles</a></li>\n";
-echo "			<li data-filtertext=\"accordions collapsible set widget content formatting grouped collapsibles\"><a href=\"demos/collapsibleset/\" data-ajax=\"false\">Collapsible set</a></li>\n";
-echo "		</ul>\n";
-echo "	</div>\n";
-echo "</li>\n";
-echo "<li data-role=\"collapsible\" data-enhanced=\"true\" data-collapsed-icon=\"carat-d\" data-expanded-icon=\"carat-u\" data-iconpos=\"right\" data-inset=\"false\" class=\"ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed\">\n";
-echo "	<h3 class=\"ui-collapsible-heading ui-collapsible-heading-collapsed\">\n";
-echo "		<a href=\"#\" class=\"ui-collapsible-heading-toggle ui-btn ui-btn-icon-right ui-btn-inherit ui-icon-carat-d\">\n";
-echo "			Controlgroup widget<span class=\"ui-collapsible-heading-status\"> click to expand contents</span>\n";
-echo "		</a>\n";
-echo "	</h3>\n";
-echo "	<div class=\"ui-collapsible-content ui-body-inherit ui-collapsible-content-collapsed\" aria-hidden=\"true\">\n";
-echo "		<ul>\n";
-echo "			<li data-filtertext=\"controlgroups selectmenu checkboxradio input grouped buttons horizontal vertical\"><a href=\"demos/controlgroup/\" data-ajax=\"false\">Controlgroup</a></li>\n";
-echo "			<li data-filtertext=\"dynamic controlgroup dynamically add buttons\"><a href=\"demos/controlgroup-dynamic/\" data-ajax=\"false\">Dynamic controlgroups</a></li>\n";
-echo "		</ul>\n";
-echo "	</div>\n";
-echo "</li>\n";
-echo "<li data-filtertext=\"form datepicker widget date input\"><a href=\"demos/datepicker/\" data-ajax=\"false\">Datepicker</a></li>\n";
-echo "<li data-role=\"collapsible\" data-enhanced=\"true\" data-collapsed-icon=\"carat-d\" data-expanded-icon=\"carat-u\" data-iconpos=\"right\" data-inset=\"false\" class=\"ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed\">\n";
-echo "	<h3 class=\"ui-collapsible-heading ui-collapsible-heading-collapsed\">\n";
-echo "		<a href=\"#\" class=\"ui-collapsible-heading-toggle ui-btn ui-btn-icon-right ui-btn-inherit ui-icon-carat-d\">\n";
-echo "			Events<span class=\"ui-collapsible-heading-status\"> click to expand contents</span>\n";
-echo "		</a>\n";
-echo "	</h3>\n";
-echo "	<div class=\"ui-collapsible-content ui-body-inherit ui-collapsible-content-collapsed\" aria-hidden=\"true\">\n";
-echo "		<ul>\n";
-echo "			<li data-filtertext=\"swipe to delete list items listviews swipe events\"><a href=\"demos/swipe-list/\" data-ajax=\"false\">Swipe list items</a></li>\n";
-echo "			<li data-filtertext=\"swipe to navigate swipe page navigation swipe events\"><a href=\"demos/swipe-page/\" data-ajax=\"false\">Swipe page navigation</a></li>\n";
-echo "		</ul>\n";
-echo "	</div>\n";
-echo "</li>\n";
-echo "<li data-filtertext=\"filterable filter elements sorting searching listview table\"><a href=\"demos/filterable/\" data-ajax=\"false\">Filterable widget</a></li>\n";
-echo "<li data-filtertext=\"form flipswitch widget flip toggle switch binary select checkbox input\"><a href=\"demos/flipswitch/\" data-ajax=\"false\">Flipswitch widget</a></li>\n";
-echo "\n";
-echo "\n";
-echo "<li data-filtertext=\"blocks content formatting sections heading\"><a href=\"demos/body-bar-classes/\" data-ajax=\"false\">Grouping and dividing content</a></li>\n";
-echo "<li data-role=\"collapsible\" data-enhanced=\"true\" data-collapsed-icon=\"carat-d\" data-expanded-icon=\"carat-u\" data-iconpos=\"right\" data-inset=\"false\" class=\"ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed\">\n";
-echo "	<h3 class=\"ui-collapsible-heading ui-collapsible-heading-collapsed\">\n";
-echo "		<a href=\"#\" class=\"ui-collapsible-heading-toggle ui-btn ui-btn-icon-right ui-btn-inherit ui-icon-carat-d\">\n";
-echo "			Icons<span class=\"ui-collapsible-heading-status\"> click to expand contents</span>\n";
-echo "		</a>\n";
-echo "	</h3>\n";
-echo "	<div class=\"ui-collapsible-content ui-body-inherit ui-collapsible-content-collapsed\" aria-hidden=\"true\">\n";
-echo "		<ul>\n";
-echo "			<li data-filtertext=\"button icons svg disc alt custom icon position\"><a href=\"demos/icons/\" data-ajax=\"false\">Icons</a></li>\n";
-echo "			<li data-filtertext=\"\"><a href=\"demos/icons-grunticon/\" data-ajax=\"false\">Grunticon loader</a></li>\n";
-echo "		</ul>\n";
-echo "	</div>\n";
-echo "</li>\n";
-echo "<li data-role=\"collapsible\" data-enhanced=\"true\" data-collapsed-icon=\"carat-d\" data-expanded-icon=\"carat-u\" data-iconpos=\"right\" data-inset=\"false\" class=\"ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed\">\n";
-echo "	<h3 class=\"ui-collapsible-heading ui-collapsible-heading-collapsed\">\n";
-echo "		<a href=\"#\" class=\"ui-collapsible-heading-toggle ui-btn ui-btn-icon-right ui-btn-inherit ui-icon-carat-d\">\n";
-echo "			Listview widget<span class=\"ui-collapsible-heading-status\"> click to expand contents</span>\n";
-echo "		</a>\n";
-echo "	</h3>\n";
-echo "	<div class=\"ui-collapsible-content ui-body-inherit ui-collapsible-content-collapsed\" aria-hidden=\"true\">\n";
-echo "		<ul>\n";
-echo "			<li data-filtertext=\"listview widget thumbnails icons nested split button collapsible ul ol\"><a href=\"demos/listview/\" data-ajax=\"false\">Listview</a></li>\n";
-echo "			<li data-filtertext=\"autocomplete filterable reveal listview filtertextbeforefilter placeholder\"><a href=\"demos/listview-autocomplete/\" data-ajax=\"false\">Listview autocomplete</a></li>\n";
-echo "			<li data-filtertext=\"autocomplete filterable reveal listview remote data filtertextbeforefilter placeholder\"><a href=\"demos/listview-autocomplete-remote/\" data-ajax=\"false\">Listview autocomplete remote data</a></li>\n";
-echo "			<li data-filtertext=\"autodividers anchor jump scroll linkbars listview lists ul ol\"><a href=\"demos/listview-autodividers-linkbar/\" data-ajax=\"false\">Listview autodividers linkbar</a></li>\n";
-echo "			<li data-filtertext=\"listview autodividers selector autodividersselector lists ul ol\"><a href=\"demos/listview-autodividers-selector/\" data-ajax=\"false\">Listview autodividers selector</a></li>\n";
-echo "			<li data-filtertext=\"listview nested list items\"><a href=\"demos/listview-nested-lists/\" data-ajax=\"false\">Nested Listviews</a></li>\n";
-echo "			<li data-filtertext=\"listview collapsible list items flat\"><a href=\"demos/listview-collapsible-item-flat/\" data-ajax=\"false\">Listview collapsible list items (flat)</a></li>\n";
-echo "			<li data-filtertext=\"listview collapsible list indented\"><a href=\"demos/listview-collapsible-item-indented/\" data-ajax=\"false\">Listview collapsible list items (indented)</a></li>\n";
-echo "			<li data-filtertext=\"grid listview responsive grids responsive listviews lists ul\"><a href=\"demos/listview-grid/\" data-ajax=\"false\">Listview responsive grid</a></li>\n";
-echo "		</ul>\n";
-echo "	</div>\n";
-echo "</li>\n";
-echo "<li data-filtertext=\"loader widget page loading navigation overlay spinner\"><a href=\"demos/loader/\" data-ajax=\"false\">Loader widget</a></li>\n";
-echo "<li data-filtertext=\"navbar widget navmenu toolbars header footer\"><a href=\"demos/navbar/\" data-ajax=\"false\">Navbar widget</a></li>\n";
-echo "<li data-role=\"collapsible\" data-enhanced=\"true\" data-collapsed-icon=\"carat-d\" data-expanded-icon=\"carat-u\" data-iconpos=\"right\" data-inset=\"false\" class=\"ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed\">\n";
-echo "	<h3 class=\"ui-collapsible-heading ui-collapsible-heading-collapsed\">\n";
-echo "		<a href=\"#\" class=\"ui-collapsible-heading-toggle ui-btn ui-btn-icon-right ui-btn-inherit ui-icon-carat-d\">\n";
-echo "			Navigation<span class=\"ui-collapsible-heading-status\"> click to expand contents</span>\n";
-echo "		</a>\n";
-echo "	</h3>\n";
-echo "	<div class=\"ui-collapsible-content ui-body-inherit ui-collapsible-content-collapsed\" aria-hidden=\"true\">\n";
-echo "		<ul>\n";
-echo "			<li data-filtertext=\"ajax navigation navigate widget history event method\"><a href=\"demos/navigation/\" data-ajax=\"false\">Navigation</a></li>\n";
-echo "			<li data-filtertext=\"linking pages page links navigation ajax prefetch cache\"><a href=\"demos/navigation-linking-pages/\" data-ajax=\"false\">Linking pages</a></li>\n";
-echo "			<!-- <li data-filtertext=\"php redirect server redirection server-side navigation\"><a href=\"demos/navigation-php-redirect/\" data-ajax=\"false\">PHP redirect demo</a></li>-->\n";
-echo "			<li data-filtertext=\"navigation redirection hash query\"><a href=\"demos/navigation-hash-processing/\" data-ajax=\"false\">Hash processing demo</a></li>\n";
-echo "			<li data-filtertext=\"navigation redirection hash query\"><a href=\"demos/page-events/\" data-ajax=\"false\">Page Navigation Events</a></li>\n";
-echo "		</ul>\n";
-echo "	</div>\n";
-echo "</li>\n";
-echo "\n";
-echo "\n";
-echo "\n";
-echo "		     </ul>\n";
-echo "		</div>";
- ?>  
+	  <?php include "menu.php"; ?>  
     <!-- /panel -->
 
 
