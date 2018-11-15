@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="qrcode.js"></script>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     
@@ -58,9 +60,41 @@
 
 		<p><strong>So this is a demo for the QR payments using Allied Wallet as a Payment Gateway.</strong></p>
 
-		<img src="demos/_assets/img/devices.png">
+		<div style="visibility: hidden; height: 0%"><input style="" id="text" type="text" value="http://jindo.dev.naver.com/collie" style="height: 0%" /></div>
+<div id="qrcode" style="width:400px; height:400px; margin-top:-40px;"></div>
 
-		<p>In this introduction I will be able to show you how QuicQR will be able to sell coffee from diffeant restrents and put money on the accounts for users.</p>
+<script type="text/javascript">
+var qrcode = new QRCode(document.getElementById("qrcode"), {
+	width : 400,
+	height : 400
+});
+
+function makeCode () {		
+	var elText = document.getElementById("text");
+	
+	if (!elText.value) {
+		alert("Input a text");
+		elText.focus();
+		return;
+	}
+	
+	qrcode.makeCode(elText.value);
+}
+
+makeCode();
+
+$("#text").
+	on("blur", function () {
+		makeCode();
+	}).
+	on("keydown", function (e) {
+		if (e.keyCode == 13) {
+			makeCode();
+		}
+	});
+</script>
+
+		<br /><p>In this introduction I will be able to show you how QuicQR will be able to sell coffee from diffeant restrents and put money on the accounts for users.</p>
 
         <div class="ui-grid-a ui-responsive">
         	<?php echo "<div class=\"ui-block-a\">\n";
